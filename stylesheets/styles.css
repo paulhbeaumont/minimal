@@ -43,14 +43,24 @@ a:hover {
 }
 
 a small {
-  font-size:11px;
+  font-size:14px;
   color:#777;
-  margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
   color:#777;
+}
+
+a cv {
+  font-size:14px;
+  color:#069;
+  display:block;
+  font-weight:700;
+}
+
+a:hover cv {
+  color:#069;
 }
 
 .wrapper {
@@ -190,7 +200,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:30px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
