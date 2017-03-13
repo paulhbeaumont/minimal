@@ -17,6 +17,22 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+z {
+  margin:0 0 0px;
+}
+
+z alert {
+  font-size:14px;
+  color:#DC143C;
+  display:inline;
+}
+
+p alert {
+  font-size:14px;
+  color:#DC143C;
+  display:inline;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -43,14 +59,24 @@ a:hover {
 }
 
 a small {
-  font-size:11px;
+  font-size:14px;
   color:#777;
-  margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
   color:#777;
+}
+
+a cv {
+  font-size:14px;
+  color:#069;
+  display:inline;
+  font-weight:700;
+}
+
+a:hover cv {
+  color:#069;
 }
 
 .wrapper {
@@ -61,7 +87,7 @@ a:hover small {
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
-  padding:0 0 0 20px;
+  padding:0 0 0 10px;
   font-style:italic;
 }
 
@@ -190,7 +216,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:30px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
