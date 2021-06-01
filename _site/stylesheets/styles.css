@@ -3,9 +3,10 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "PT Serif", "Helvetica Neue", Helvetica, Arial, serif;
+  font: 14px/1.5;
   color:#595959;
   font-weight:400;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -81,8 +82,10 @@ a:hover cv {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
+  width:950px;
+    margin:0 auto;
+/*  margin-right:50 auto; /* 1 */
+/*margin-left:50  auto; /* 1 */
 }
 
 blockquote {
@@ -201,7 +204,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:650px;
   float:right;
   padding-bottom:50px;
 }
@@ -222,7 +225,7 @@ footer {
   float:left;
   position:fixed;
   bottom:30px;
-  -webkit-font-smoothing:subpixel-antialiased;
+
 }
 
 @media print, screen and (max-width: 960px) {
